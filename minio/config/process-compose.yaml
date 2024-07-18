@@ -1,0 +1,8 @@
+version: "0.5"
+
+processes:
+  minio:
+    command: "minio server --address $MINIO_HOST:$MINIO_PORT --console-address $MINIO_HOST:$MINIO_BROWSER_PORT $MINIO_DATA"
+    availability:
+      restart: on_failure
+      max_restarts: 5

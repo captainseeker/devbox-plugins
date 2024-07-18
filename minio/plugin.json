@@ -1,0 +1,15 @@
+{
+    "name": "minio",
+    "version": "0.0.1",
+    "description": "Running `devbox services start minio` will start minio as a daemon in the background. \n\nYou can manually start minio in the foreground by running `minio server --address $MINIO_HOST:$MINIO_PORT --console-address $MINIO_HOST:$MINIO_BROWSER_PORT $MINIO_DATA`. ",
+    "env": {
+        "MINIO_PORT": "9000",
+        "MINIO_BROWSER_PORT": "9001",
+        "MINIO_HOST": "127.0.0.1",
+        "MINIO_DATA": "{{.Virtenv}}/data"
+
+    },
+    "create_files": {
+        "{{ .Virtenv }}/process-compose.yaml": "config/process-compose.yaml"
+    }
+}
