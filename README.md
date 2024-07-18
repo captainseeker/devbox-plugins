@@ -5,6 +5,7 @@ This repository includes plugins for configuring packages using Devbox.
 ## Available Plugins
 
 * [Valkey](./valkey)
+* [Minio](./minio)
 
 ## How to Use
 
