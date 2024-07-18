@@ -1,0 +1,101 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "minio@latest": {
+      "last_modified": "2024-07-08T12:07:05Z",
+      "resolved": "github:NixOS/nixpkgs/2e45bfd5361ccdbebe45b68ae2021aea0078eb00#minio",
+      "source": "devbox-search",
+      "version": "2024-07-04T14-25-45Z",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/qxc19mn9pg3axi0pypk09lx4r07n69d8-minio-2024-07-04T14-25-45Z",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/qxc19mn9pg3axi0pypk09lx4r07n69d8-minio-2024-07-04T14-25-45Z"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/kl6xlgfc0xpy07g6zzx5lwwxwyqmr64b-minio-2024-07-04T14-25-45Z",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/kl6xlgfc0xpy07g6zzx5lwwxwyqmr64b-minio-2024-07-04T14-25-45Z"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5jg3qrvzwrflqgy8grifq9c1cphbzjjx-minio-2024-07-04T14-25-45Z",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5jg3qrvzwrflqgy8grifq9c1cphbzjjx-minio-2024-07-04T14-25-45Z"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d4gk358sfa4daqx6dwwgmr0i1nib8nwy-minio-2024-07-04T14-25-45Z",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/d4gk358sfa4daqx6dwwgmr0i1nib8nwy-minio-2024-07-04T14-25-45Z"
+        }
+      }
+    },
+    "valkey@latest": {
+      "last_modified": "2024-07-07T07:43:47Z",
+      "resolved": "github:NixOS/nixpkgs/b60793b86201040d9dee019a05089a9150d08b5b#valkey",
+      "source": "devbox-search",
+      "version": "7.2.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/4sxq9sfyc32v1dqjiw6abiy46gd9bn9y-valkey-7.2.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/4sxq9sfyc32v1dqjiw6abiy46gd9bn9y-valkey-7.2.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cl7fjb9y6a7fzkr9r9b372bix0nfr5sy-valkey-7.2.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/cl7fjb9y6a7fzkr9r9b372bix0nfr5sy-valkey-7.2.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nm5avp0v1aaj76inpdz5w2gvw6hs2akv-valkey-7.2.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nm5avp0v1aaj76inpdz5w2gvw6hs2akv-valkey-7.2.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6rcmmyp62k1zzi529kid2clsxdxp8v6d-valkey-7.2.5",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6rcmmyp62k1zzi529kid2clsxdxp8v6d-valkey-7.2.5"
+        }
+      }
+    }
+  }
+}

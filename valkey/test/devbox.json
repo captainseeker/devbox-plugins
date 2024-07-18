@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "valkey@latest",
+    "minio@latest"
+  ],
+  "shell": {
+    "init_hook": []
+  },
+  "include": [
+    "path:./../plugin.json"
+  ]
+}
