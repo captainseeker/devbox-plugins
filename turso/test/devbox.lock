@@ -1,0 +1,56 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "resolved": "github:NixOS/nixpkgs/18dd725c29603f582cf1900e0d25f9f1063dbf11?lastModified=1744536153&narHash=sha256-awS2zRgF4uTwrOKwwiJcByDzDOdo3Q1rPZbiHQg%2FN38%3D"
+    },
+    "turso-cli@latest": {
+      "last_modified": "2025-04-09T00:06:13Z",
+      "resolved": "github:NixOS/nixpkgs/6a39c6e495eefabc935d8ddf66aa45d85b85fa3f#turso-cli",
+      "source": "devbox-search",
+      "version": "1.0.6",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/c80bkgapm3jp5705b2cjjqqvgzaj37f5-turso-cli-1.0.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/c80bkgapm3jp5705b2cjjqqvgzaj37f5-turso-cli-1.0.6"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5rrb2f1i1ww5ahw9wxr75pymnkb8qiry-turso-cli-1.0.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/5rrb2f1i1ww5ahw9wxr75pymnkb8qiry-turso-cli-1.0.6"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/862l61bin7jzfy5fdr4ja2wffzzjsa6a-turso-cli-1.0.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/862l61bin7jzfy5fdr4ja2wffzzjsa6a-turso-cli-1.0.6"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j4h4np532vxsldfnnsbghlwkbv70kz1s-turso-cli-1.0.6",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/j4h4np532vxsldfnnsbghlwkbv70kz1s-turso-cli-1.0.6"
+        }
+      }
+    }
+  }
+}

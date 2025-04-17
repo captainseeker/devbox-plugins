@@ -1,0 +1,14 @@
+{
+	"name": "turso",
+	"version": "0.0.1",
+	"description": "Running `devbox services start turso` will start turso as a daemon in the background. \n\nYou can manually start Turso in the foreground by running `turso dev --port $TURSO_PORT --db-file $TURSO_DB_FILE --auth-jwt-key-file $TURSO_AUTH_JWT_KEY_FILE`. \n",
+	"env": {
+		"TURSO_PORT": "8080",
+		"TURSO_AUTH_JWT_KEY_FILE": "{{ .DevboxDir }}/turso.key",
+		"TURSO_DB_FILE": "turso.db"
+	},
+	"create_files": {
+		"{{ .DevboxDir }}/turso.key": "config/turso.key",
+		"{{ .Virtenv }}/process-compose.yaml": "config/process-compose.yaml"
+	}
+}

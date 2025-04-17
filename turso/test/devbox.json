@@ -1,0 +1,7 @@
+{
+	"packages": ["turso-cli@latest"],
+	"shell": {
+		"init_hook": []
+	},
+	"include": ["path:./../plugin.json"]
+}
