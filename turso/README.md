@@ -1,6 +1,6 @@
 # Turso Plugin
 
-Plugin for the [`turso`](https://www.nixhub.io/packages/turso-cli) package. This plugin sets several `TURSO` environment variables to run an instance of Turso in your local project, adds a `turso.key` file to the devbox.d directory, and configures a turso service.
+Plugin for the [`turso`](https://www.nixhub.io/packages/turso-cli) package. This plugin sets several `TURSO` environment variables to run an instance of Turso in your local project.
 
 ## How to Activate
 
@@ -25,7 +25,6 @@ Use `devbox services up turso` to start the Valkey  server
 
 This plugin creates the following helper files:
 
-* **devbox.d/turso/turso.key** - Turso key file
 * **.devbox/virtenv/turso/process-compose.yaml** - Defines the process to start the Turso server
 
 ## Environment Variables
@@ -33,5 +32,4 @@ This plugin creates the following helper files:
 This plugin sets the following environment variables:
 
 * **TURSO_PORT** = 8080
-* **TURSO_AUTH_JWT_KEY_FILE** = {{.DevboxDir}}/turso/turso.key
 * **TURSO_DB_FILE** = turso.db
