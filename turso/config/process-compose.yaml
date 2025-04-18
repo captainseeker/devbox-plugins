@@ -2,7 +2,7 @@ version: "0.5"
 
 processes:
   turso:
-    command: "turso dev --port $TURSO_PORT --db-file $TURSO_DB_FILE --auth-jwt-key-file $TURSO_AUTH_JWT_KEY_FILE"
+    command: "turso dev --port $TURSO_PORT --db-file $TURSO_DB_FILE"
     availability:
       restart: on_failure
       max_restarts: 5
