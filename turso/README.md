@@ -4,7 +4,7 @@ Plugin for the [`turso`](https://www.nixhub.io/packages/turso-cli) package. This
 
 ## How to Activate
 
-To install Valkey, run `devbox add turso-cli@latest`
+To install Turso, run `devbox add turso-cli@latest`
 
 To activate this plugin, add the following reference to the `include` section of your `devbox.json` file.
 
@@ -19,7 +19,7 @@ To activate this plugin, add the following reference to the `include` section of
 
 * turso
 
-Use `devbox services up turso` to start the Valkey  server
+Use `devbox services up turso` to start the Turso  server
 
 ## Files
 
